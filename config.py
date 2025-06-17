@@ -1,5 +1,5 @@
 import re
-from os import getenv
+from os import getenv hu
 
 from dotenv import load_dotenv
 from pyrogram import filters
@@ -13,11 +13,11 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","II_gunjan_singh_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Rupak_Sir_Patna")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","irotechmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","Mahi_Music_Robot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME","IRO MUSIC")
+BOT_NAME = getenv("BOT_NAME","Mahi MUSIC")
 # ---------------------------------------------------------
 
 
@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002302005857))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002084205853))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7049747628))
+OWNER_ID = int(getenv("OWNER_ID", 7286572161))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -45,14 +45,14 @@ API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", '30DxNexGenBotsbe462b') # youtube song api key
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gunjan890/BABYXMUSIC",
+    "https://github.com/teamrupak/RUPAKTOP-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN","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")  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Tg_Music_Updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Tg_Music_Updates")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
