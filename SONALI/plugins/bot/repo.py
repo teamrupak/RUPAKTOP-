@@ -30,10 +30,10 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝗛ᴇʟᴘ", url="https://t.me/+TkkVwWjSqWc5MDc1"),
-          InlineKeyboardButton("🇬𝐮𝐧𝐣𝐚𝐧🐬", url="https://t.me/II_apna_gunjan_II"),
+          InlineKeyboardButton("Rupak", url="https://t.me/Rupak_Sir_Patna"),
           ],
                [
-                InlineKeyboardButton("Masti music bot", url=f"https://t.me/apnamusic_bot"),
+                InlineKeyboardButton("Masti music bot", url=f"@Mahi_Music_Robot"),
 ],
 [
 InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/apnamusic_bot"),
